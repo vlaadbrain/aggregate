@@ -1,0 +1,55 @@
+
+15:39:46,991  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:41 - Start of disruptor single publisher test
+15:40:11,644  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:64 - 4239 TPS with 1 Worker/s
+15:40:19,400  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:64 - 14204 TPS with 2 Worker/s
+15:40:25,622  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:64 - 17442 TPS with 3 Worker/s
+15:40:30,458  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:64 - 22346 TPS with 4 Worker/s
+15:40:34,893  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:64 - 25853 TPS with 5 Worker/s
+15:40:39,515  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:64 - 23326 TPS with 6 Worker/s
+15:40:39,521  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:72 - Start of disruptor multi publisher test
+15:40:46,139  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:91 - 15153 TPS with 2 Worker/s 1 Publishers
+15:40:56,297  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:91 - 10537 TPS with 2 Worker/s 2 Publishers
+15:40:56,297  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:91 - 10565 TPS with 2 Worker/s 2 Publishers
+15:41:10,474  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:91 - 7517 TPS with 2 Worker/s 3 Publishers
+15:41:10,512  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:91 - 7495 TPS with 2 Worker/s 3 Publishers
+15:41:10,533  INFO PrimitivePublisherOneRingBufferMultiWorkerPoolIT:91 - 7531 TPS with 2 Worker/s 3 Publishers
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 84.831 sec
+Running org.cjt.aggregate.ByteArrayOneRingBufferMultiWorkerPoolIT
+15:41:11,513  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:44 - Start of disruptor single publisher test
+15:41:24,462  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:67 - 8440 TPS with 1 Worker/s
+15:41:31,768  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:67 - 14856 TPS with 2 Worker/s
+15:41:37,701  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:67 - 18399 TPS with 3 Worker/s
+15:41:42,903  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:67 - 20977 TPS with 4 Worker/s
+15:41:47,065  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:67 - 27233 TPS with 5 Worker/s
+15:41:52,568  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:67 - 24551 TPS with 6 Worker/s
+15:41:52,569  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:75 - Start of disruptor multi publisher test
+15:41:59,351  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:94 - 14927 TPS with 2 Worker/s 1 Publishers
+15:42:08,955  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:94 - 11254 TPS with 2 Worker/s 2 Publishers
+15:42:08,969  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:94 - 11237 TPS with 2 Worker/s 2 Publishers
+15:42:23,184  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:94 - 7603 TPS with 2 Worker/s 3 Publishers
+15:42:23,184  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:94 - 7621 TPS with 2 Worker/s 3 Publishers
+15:42:23,184  INFO ByteArrayOneRingBufferMultiWorkerPoolIT:94 - 7604 TPS with 2 Worker/s 3 Publishers
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 72.566 sec
+Running org.cjt.aggregate.PlainJaneCounterIT
+15:42:24,079  INFO PlainJaneCounterIT:52 - Start of CounterWorker Cassandra counter test
+15:42:40,936  INFO PlainJaneCounterIT:68 - 5938 TPS with 1 Process loop Handler/s
+15:42:56,186  INFO PlainJaneCounterIT:68 - 6570 TPS with 2 Process loop Handler/s
+15:42:56,186  INFO PlainJaneCounterIT:68 - 6572 TPS with 2 Process loop Handler/s
+15:43:14,387  INFO PlainJaneCounterIT:68 - 5508 TPS with 3 Process loop Handler/s
+15:43:14,387  INFO PlainJaneCounterIT:68 - 5513 TPS with 3 Process loop Handler/s
+15:43:14,387  INFO PlainJaneCounterIT:68 - 5511 TPS with 3 Process loop Handler/s
+15:43:35,224  INFO PlainJaneCounterIT:68 - 4813 TPS with 4 Process loop Handler/s
+15:43:35,248  INFO PlainJaneCounterIT:68 - 4807 TPS with 4 Process loop Handler/s
+15:43:35,263  INFO PlainJaneCounterIT:68 - 4804 TPS with 4 Process loop Handler/s
+15:43:35,264  INFO PlainJaneCounterIT:68 - 4816 TPS with 4 Process loop Handler/s
+15:43:58,996  INFO PlainJaneCounterIT:68 - 4231 TPS with 5 Process loop Handler/s
+15:43:59,021  INFO PlainJaneCounterIT:68 - 4226 TPS with 5 Process loop Handler/s
+15:43:59,025  INFO PlainJaneCounterIT:68 - 4235 TPS with 5 Process loop Handler/s
+15:43:59,026  INFO PlainJaneCounterIT:68 - 4225 TPS with 5 Process loop Handler/s
+15:43:59,026  INFO PlainJaneCounterIT:68 - 4227 TPS with 5 Process loop Handler/s
+15:44:28,730  INFO PlainJaneCounterIT:68 - 3377 TPS with 6 Process loop Handler/s
+15:44:28,731  INFO PlainJaneCounterIT:68 - 3379 TPS with 6 Process loop Handler/s
+15:44:28,731  INFO PlainJaneCounterIT:68 - 3385 TPS with 6 Process loop Handler/s
+15:44:28,731  INFO PlainJaneCounterIT:68 - 3378 TPS with 6 Process loop Handler/s
+15:44:28,731  INFO PlainJaneCounterIT:68 - 3386 TPS with 6 Process loop Handler/s
+15:44:28,731  INFO PlainJaneCounterIT:68 - 3389 TPS with 6 Process loop Handler/s

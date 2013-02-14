@@ -1,0 +1,6 @@
+15:41:59,351  INFO ByteArrayOneRingBufferMultiWorkerPoolIT[01;31m[K:94[m[K - 14927 TPS with 2 Worker/s 1 Publishers
+15:42:08,955  INFO ByteArrayOneRingBufferMultiWorkerPoolIT[01;31m[K:94[m[K - 11254 TPS with 2 Worker/s 2 Publishers
+15:42:08,969  INFO ByteArrayOneRingBufferMultiWorkerPoolIT[01;31m[K:94[m[K - 11237 TPS with 2 Worker/s 2 Publishers
+15:42:23,184  INFO ByteArrayOneRingBufferMultiWorkerPoolIT[01;31m[K:94[m[K - 7603 TPS with 2 Worker/s 3 Publishers
+15:42:23,184  INFO ByteArrayOneRingBufferMultiWorkerPoolIT[01;31m[K:94[m[K - 7621 TPS with 2 Worker/s 3 Publishers
+15:42:23,184  INFO ByteArrayOneRingBufferMultiWorkerPoolIT[01;31m[K:94[m[K - 7604 TPS with 2 Worker/s 3 Publishers

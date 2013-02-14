@@ -1,0 +1,21 @@
+CREATE KEYSPACE CounterSpace
+    WITH strategy_options = {replication_factor:1}
+    AND placement_strategy = 'SimpleStrategy';
+
+use CounterSpace;
+
+create column family UUIDCounterFamily
+    with comparator = UTF8Type
+    and key_validation_class = 'TimeUUIDType'
+    and default_validation_class = 'CounterColumnType';
+
+create column family STRINGCounterFamily
+    with comparator = UTF8Type
+    and key_validation_class = 'UTF8Type'
+    and default_validation_class = 'CounterColumnType';
+
+create column family LONGCounterFamily
+    with comparator = UTF8Type
+    and key_validation_class = 'LongType'
+    and default_validation_class = 'CounterColumnType';
+
